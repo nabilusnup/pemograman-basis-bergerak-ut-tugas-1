@@ -1,0 +1,5 @@
+node_modules/
+dist/
+console-dist/
+package-lock.json
+.qodo/

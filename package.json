@@ -1,0 +1,26 @@
+{
+  "name": "praktikum-nim-054727057",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "console": "tsc -p tsconfig.console.json && node console-dist/console.js",
+    "test": "tsc -p tsconfig.console.json && node --test tests/algorithms.test.mjs",
+    "format": "prettier --write src tests index.html vite.config.ts tsconfig.json tsconfig.console.json package.json .prettierrc.json",
+    "format:check": "prettier --check src tests index.html vite.config.ts tsconfig.json tsconfig.console.json package.json .prettierrc.json"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "prettier": "^3.9.9",
+    "typescript": "~5.8.3",
+    "vite": "^6.2.6",
+    "vue-tsc": "^2.2.8"
+  }
+}
